@@ -8,13 +8,12 @@ Plug 'felixhummel/setcolors.vim'
 Plug 'hzchirs/vim-material'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'scrooloose/nerdcommenter'
+Plug 'fholgado/minibufexpl.vim'
 call plug#end()
 
 
 set background=dark
 colorscheme atom
-
-
 
 "" General
 set showmode            " Hide vim mode text
@@ -90,4 +89,7 @@ let g:lightline = {
       \ 'separator': { 'left': ' ', 'right': ' ' },
       \ 'subseparator': { 'left': ' ', 'right': ' ' }
       \ }
+
+
+highlight EndOfBuffer ctermfg=black
 
