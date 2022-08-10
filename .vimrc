@@ -9,6 +9,7 @@ Plug 'hzchirs/vim-material'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'scrooloose/nerdcommenter'
 Plug 'fholgado/minibufexpl.vim'
+Plug 'bogado/file-line'
 call plug#end()
 
 
@@ -92,4 +93,3 @@ let g:lightline = {
 
 
 highlight EndOfBuffer ctermfg=black
-
